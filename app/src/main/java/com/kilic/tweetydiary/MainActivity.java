@@ -2236,13 +2236,7 @@ catch (Exception ex){ex.printStackTrace();}
             Boolean boughtState= mPreferences.getBoolean(BOUGHT, false);
             if (boughtState == true) {
 
-                randomNum= r.nextInt((6 - 1) + 1) + 1;
-                if(randomNum==2){showAdWithDelay();}
-             /*  if (mInterstitialAd.isLoaded() && randomNum==2) {
-                    mInterstitialAd.show();
-                  //   Toast.makeText(this, "alındı" + " random " + randomNum, Toast.LENGTH_SHORT).show();
 
-                }*/
 
 
             }
