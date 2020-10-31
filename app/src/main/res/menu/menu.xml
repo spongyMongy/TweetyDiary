@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navDrawerMenu"
+        android:enabled="true"
+        android:icon="@drawable/options"
+        android:title="@string/menu"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/moodChart"
+        android:enabled="true"
+        android:icon="@drawable/five"
+        android:title="@string/mood"
+        app:showAsAction="ifRoom" />
+
+
+
+    <item
+        android:id="@+id/new_picture"
+        android:enabled="true"
+        android:icon="@drawable/picasa"
+        android:title="@string/newpicture"
+        app:showAsAction="ifRoom" />
+
+
+
+</menu>

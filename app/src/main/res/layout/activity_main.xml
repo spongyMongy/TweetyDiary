@@ -1,0 +1,275 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+
+
+
+
+
+
+
+    <!--
+   <?xml version="1.0" encoding="utf-8"?>
+   <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:id="@+id/coordinatorLayout"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       tools:context=".MainActivity">
+  -->
+
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/coordinatorLayoutNoAds"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButtonDownloadImage"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:clickable="true"
+            app:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/downloadimage"
+            android:scaleType="fitCenter"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="208dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.975"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cardViewADS"
+            />
+
+        <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginEnd="8dp"
+           android:layout_marginStart="8dp"
+           android:id="@+id/photoinfos"
+
+           app:layout_constraintBottom_toTopOf="@+id/cardViewADS"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.882"
+           app:layout_constraintStart_toStartOf="parent">
+
+           <TextView
+               android:id="@+id/photobytextView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Photo by "
+               android:textColor="#9E9E9E"
+               android:textSize="10sp" />
+
+           <TextView
+               android:id="@+id/photographerTextView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:autoLink="all"
+               android:linksClickable="true"
+               android:layout_toEndOf="@id/photobytextView"
+
+               android:textColor="#00aced"
+               android:textSize="10sp" />
+
+           <TextView
+               android:id="@+id/unsplashTextView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_toEndOf="@id/photographerTextView"
+               android:autoLink="all"
+               android:linksClickable="true"
+               android:textColor="#00aced"
+               android:textSize="10sp" />
+       </RelativeLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewADS"
+            android:layout_width="0dp"
+
+
+            android:layout_height="250dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+
+
+            android:layout_marginTop="24dp"
+            android:elevation="12dp"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="1.9"
+            android:visibility="visible"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageViewADS"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewADS"
+            app:layout_constraintVertical_weight="0.75">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+       /////////////////////////////
+       <!--
+       <com.google.android.gms.ads.AdView
+           android:id="@+id/adView"
+
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+
+           android:layout_marginEnd="8dp"
+           android:layout_marginStart="8dp"
+           app:adSize="BANNER"
+           app:adUnitId="@string/ad_unitbanner_id"
+           app:layout_anchorGravity="bottom|center"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>-->
+
+
+      <!-- <android.support.design.widget.FloatingActionButton
+           android:id="@+id/fab"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="60dp"
+           android:layout_marginEnd="52dp"
+           android:layout_weight="0.5"
+           android:scaleType="center"
+
+           app:backgroundTint="@color/colorBackground"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:srcCompat="@drawable/feather" />-->
+
+       <android.support.constraint.Guideline
+           android:id="@+id/guideline"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           app:layout_constraintGuide_end="368dp" />
+
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="400dp"
+            android:layout_height="254dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/introowl"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@android:color/white"
+            tools:layout_editor_absoluteX="104dp" />
+
+        <ImageView
+            android:id="@+id/introfabIV"
+            android:layout_width="320dp"
+            android:layout_height="254dp"
+            android:layout_marginBottom="120dp"
+            android:src="@drawable/introentry"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:srcCompat="@android:color/white"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+
+
+
+
+
+       <!--
+                   app:layout_constraintBottom_toTopOf="@+id/adView"
+
+    -->
+
+
+        <!--
+            app:itemIconTint="@color/colorwhite"
+-->
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:animateLayoutChanges="false"
+
+            app:itemTextColor="@color/colorBlack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+
+
+            app:menu="@menu/menu" />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="40dp"
+            android:scaleType="centerInside"
+            app:backgroundTint="@color/colorBackground"
+            app:elevation="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.786"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/feather" />
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+<android.support.design.widget.NavigationView
+android:id="@+id/nv"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:layout_gravity="start"
+android:fitsSystemWindows="true"
+app:headerLayout="@layout/nav_header"
+
+app:menu="@menu/navigation_menu"></android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF4081</color>
+    <color name="colorPrimaryDark">#0047b3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorEntry">#FFFF00FF</color>
+
+
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorDreamMode">#212121</color>
+
+    <color name="colorfornewentryfab">#f2FFFFFF</color>
+
+    <color name="newEntryButton">#FFFFFF</color>
+    <color name="newEntryText">#00aced</color>
+
+    <color name="forDiaryFavText">#9933cc</color>
+    <color name="DreamModeOff">#0047b3</color>
+
+
+    <color name="notifPurple">#9933cc</color>
+
+
+
+    <color name="colorMood1">#E64A19</color>
+    <color name="colorMood2">#FF5722</color>
+    <color name="colorMood3">#FF6F00</color>
+    <color name="colorMood4">#64DD17</color>
+    <color name="colorMood5">#00C853</color>
+
+
+    <color name="color1">#80DEEA</color>
+    <color name="color2">#EA80FC</color>
+    <color name="color3">#AED581</color>
+    <color name="color4">#FFF176</color>
+    <color name="color5">#F48FB1</color>
+    <color name="color6">#40C4FF</color>
+    <color name="color7">#BA68C8</color>
+    <color name="color8">#81C784</color>
+    <color name="color9">#FFAB91</color>
+    <color name="color10">#EF9A9A</color>
+<!--
+    <color name="color11">#bdbdbd</color>
+        <color name="color12">#888888</color>
+            <color name="color12">#59000000</color>
+
+-->
+    <color name="color11">#FFFFFF</color>
+    <color name="color12">#EBE3E1</color>
+    <color name="color13">#90A4AE</color>
+    <color name="color14">#000000</color>
+
+    <color name="intro1">#266200EE</color>
+
+    <color name="colorwhite">#FFFFFFFF</color>
+
+    <color name="colorNotifColor">#b300b3</color>
+    <color name="colornavview">#A6FFFFFF</color>
+
+
+    <!-- RED Theme -->
+
+    <!-- PINK Theme -->
+
+    <!-- PURPLE Theme -->
+
+
+    <!-- DEEPPURPLE Theme -->
+
+    <!-- INDIGO Theme -->
+
+    <!-- BLUE Theme -->
+
+    <!-- LIGHTBLUE Theme -->
+
+    <!-- CYAN Theme -->
+
+    <!-- TEAL Theme -->
+
+
+    <!--  GREEN Theme -->
+
+    <!-- LIGHTGREEN Theme -->
+
+    <!-- Lime Theme -->
+
+    <!-- YELLOW Theme -->
+
+    <!-- AMBER Theme -->
+
+    <!-- ORANGE Theme -->
+
+    <!-- DEEPORANGE Theme -->
+
+    <!-- BROWN Theme -->
+
+    <!-- GRAY Theme -->
+
+    <!-- BLUEGRAY Theme -->
+
+
+</resources>

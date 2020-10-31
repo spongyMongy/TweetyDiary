@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "757162123016",
+    "firebase_url": "https://tweetydiary-ebc37.firebaseio.com",
+    "project_id": "tweetydiary-ebc37",
+    "storage_bucket": "tweetydiary-ebc37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757162123016:android:5f578ca9cb24aaf4",
+        "android_client_info": {
+          "package_name": "com.kilic.tweetydiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757162123016-222v65jj2jllul68cenuj2mqeilh6eca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kilic.tweetydiary",
+            "certificate_hash": "f6403703c2aeb7bcbb012cb9361650aba55198ac"
+          }
+        },
+        {
+          "client_id": "757162123016-kks98f6mjc7e7bff5jmla89shov96g1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsjdJhAjVC1NGnPwD2dF3tBq599GXt8OM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757162123016-kks98f6mjc7e7bff5jmla89shov96g1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

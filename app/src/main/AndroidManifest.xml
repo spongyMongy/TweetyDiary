@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kilic.tweetydiary">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+   <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+
+    <application
+        android:name=".MYAPPLICATION"
+        android:allowBackup="true"
+        android:directBootAware="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAIGHzslMaC3TIFdi9zGde7ATNbE5xrdRgCUckqug" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:theme="@style/FullscreenTheme"
+            >
+            <tools:validation testUrl="https://vergilstudios.wixsite.com/pinkdiary" />
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="https"
+                    android:host="vergilstudios.wixsite.com" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewEntry"
+            android:label="@string/today"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/FullscreenTheme"
+
+            android:windowSoftInputMode="stateVisible|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="www.youtube.com"
+                    android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+
+
+        <!--
+            android:windowSoftInputMode="stateVisible|adjustResize"
+-->
+
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/Settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name=".AlarmBootReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/search"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:parentActivityName=".MainActivity" />
+
+        <provider
+            android:name=".EntryListContentProvider"
+            android:authorities="com.kilic.tweetydiary.tweetydiarywithcontentprovider.provider"
+            android:exported="false" />
+
+        <activity
+            android:name=".FavoritesActivity"
+            android:label="@string/favorites"
+            android:parentActivityName=".MainActivity" />
+
+
+        <activity android:name=".SetPasswordActivity" />
+
+        <activity
+            android:name="com.amirarcane.lockscreen.activity.EnterPinActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+
+        <activity
+            android:name=".EditActivity"
+            android:label="@string/edit"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:theme="@style/FullscreenTheme"
+            android:parentActivityName=".MainActivity" />
+
+
+        <activity
+            android:name=".BigImage"
+            android:label=""
+            android:parentActivityName=".MainActivity" />
+
+
+        <activity android:name=".MoodChartActivity"
+        />
+
+        <activity
+            android:name=".IntroActivity"
+            android:theme="@style/FullscreenTheme" />
+
+    </application>
+
+</manifest>

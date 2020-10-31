@@ -1,0 +1,158 @@
+<resources>
+
+    <string name="app_name">Różowy Dziennik</string>
+    <string name="new_entry">Nowy wpis</string>
+   <!-- <string name="thxforcoffee">Thx for sharing your coffee today, salut:)</string>
+    Dzięki, że dzielisz dziś ze mną swoją kawę J  -->
+    <string name="favorites">Ulubione</string>
+    <string name="search">Wyszukaj</string>
+    <string name="searchFor">czego szukasz..?</string>
+    <string name="resultFor">Wyniki dla </string>
+    <string name="Export">Eksport</string>
+    <string name="Yourideais">Twoje zdanie jest dla nas bardzo ważne</string>
+    <string name="expoSummary"> Kopiuj na swoje urządzenie + podziel na 3 części</string>
+    <string name="doyouveaminuteSummary">Podoba Ci się ta aplikacja? Możemy zrobić coś lepiej? Oceń nas proszę na PlayStore, żebyśmy mogli udoskonalić ją dla Ciebie</string>
+    <string name="save">ZAPISZ</string>
+    <string name="location">LOK.</string>
+    <string name="Favorites">Ulubione</string>
+    <string name="Settings">Ustawienia</string>
+    <string name="dialogtitle">Podaj swój nick:</string>
+    <string name="exportSuccessful">Export zakończony sukcesem!</string>
+    <string name="exportFailed">Oj…coś poszło nie tak L Spróbuj ponownie</string>
+    <string name="importSuccessful">Import zakończony sukcesem!</string>
+
+    <string name="toastreminderSetted">Przypomnienie jest ustawione na </string>
+    <string name="notificationMessage">Różowa Sowa Dziennik czas:)</string>
+    <string name="alarm_name">Cześć </string>
+    <string name="entry_delete">Wpis nie został usunięty </string>
+    <string name="open_network">Proszę udostępnij dane komórkowe i lokalizację (GPS) </string>
+    <string name="permission_denied">Odmowa dostępu </string>
+    <string name="become_super">PREMIUM - Super supermocarstwo:)</string>
+    <string name="premiumsummary"> Mniej reklamy \nPrzychodzące funkcje Premium   \nZmiana koloru \nSzukanie  tapety </string>
+    <string name="edit">Edytować</string>
+    <string name="Intro1">Cześć. Jestem  Twoim nowym przyjacielem Różową Sową.  \"Wik wik\"    </string>
+    <string name="Intro2">Wspólnie będziemy mieli bardzo bogate doświadczenie związane z dziennikiem..</string>
+    <string name="Intro3">Zabawne i ciekawe wejscia</string>
+    <string name="Intro4">Będziesz lubił/a go używać</string>
+    <string name="Intro5">Pozwól swojemu umysłowi tworzyć wspaniałe wspomnienia</string>
+    <string name="Intro6">Dla swoich stron wybierz swój ulubiony tekst/kolor/styl/nawet swój pseudonim(!)</string>
+    <string name="Last7entry">Ostatnie 7 wejść</string>
+    <string name="exit1">Jesteś pewny/a że chcesz wyjść?</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="mood">Nastrój</string>
+    <string name="menu">Menu</string>
+    <string name="newpicture">Nowe Zdjęcie</string>
+    <string name="plswatchvideo">Aby pobranie było możliwe, proszę obejrzeć filmik</string>
+    <string name="downloadWillStart">Pobieranie jest zakończone dziękuję</string>
+
+
+
+
+
+    <string name="font_picker_title">Typ czcionki</string>
+    <string name="myFonts">Moje Czcionki</string>
+    <string name="dreamMode">~Tryb Sennika Aktywowany~</string>
+    <string name="dreamModeOff">Tryb Sennika Wyłączony</string>
+    <string name="monthlyAverage">Miesięczna średnia</string>
+    <string name="today">Dzisiaj</string>
+    <string name="MoodChart">Wykres Nastroju</string>
+    <string name="welcome">Witamy  </string>
+    <string name="premium">Premium  </string>
+    <string name="review">Oceń nas</string>
+    <string name="DayNight">Dzień/Noc</string>
+    <string name="atLeastOneEntry">Musisz mieć przynajmniej jedno wejście z  oznaczonym  nastrojem</string>
+
+
+
+    <string name="entry1">WITAJ PRZYJACIELU,\nTo Twój pierwszy wpis do pamietnika, GRATULUJE!\n\nMożesz usunąć swoje  wejścia kiedykolwiek chcesz klikając na nim i wybierając USUŃ. Niestety nie możesz edytować tekstu żeby coś  zmienić, przepraszam, ale nie możesz odwrócić  przeszłości:)</string>
+    <string name="entry2">Jednak możesz PODZİELİĆ SİĘ  swoją aktywnością  z innymi aplikacjami. Przeglądanie  takich wpisów może wywołać uśmiech na twojej twarzy.
+Jeszcze jedno wyzwanie  dla Ciebie:
+jeżeli jesteś wystarczająco odważny/a możesz się podzielić swoimi wpisami z przyjaciół
+nawet na Twitter:)</string>
+    <string name="entry3">Jeżeli  polubisz swój wpis klikając serduszko w  rogu wpis zapisze  się w ULUBİONYCH.</string>
+    <string name="entry4">Hej ! Nie zapomnij dodać swojej lokacji, abyś pamiętał gdzie byłeś pisząc  fajne wspomnienia.
+Wymyśl sobie jakieś  imię które polubisz.
+Nie zapomnij podzielić się swoją opinią o mojej aplikacji w PlayStore.
+Kliknij na  trzy kropki  w prawym górnym rogu następnie ustawienia i napisz nam co myślisz.
+Miłej zabawy!;)</string>
+    <string name="your_location">Lokalizacja</string>
+    <string name="password">Hasło</string>
+
+
+
+
+
+
+
+
+
+    <string name="share">Podziel się </string>
+    <string name="delete">Usuń</string>
+    <string name="Choices">Opcje</string>
+    <string name="time_picker">Selekcja czasu</string>
+    <string name="dontforgetpassword">Nie zapomnij gdzieś pisać</string>
+    <string name="backup">Utworzyć kopię zapasową</string>
+    <string name="backupSummary">Zapasowa kopia pamiętnika</string>
+    <string name="restore">Przywracać</string>
+    <string name="restoreSummary">Przywrócenie kopii</string>
+    <string name="whatisonyourmindtoday">O czym dziś myślisz...</string>
+    <string name="textcolor_picker_title">Kolor tekstu</string>
+
+
+
+
+
+
+    <string name="app_id">ca-app-pub-2730344422290526~5763146542</string>
+
+    <string name="ad_unitvideo_id">ca-app-pub-2730344422290526/1676581359</string>
+    <string name="ad_unitbanner_id">ca-app-pub-2730344422290526/4885604170</string>
+    <string name="ad_unitinterstitial_id">ca-app-pub-2730344422290526/1655379525</string>
+    <string name="ad_onlyentryinterstatialimage">ca-app-pub-2730344422290526/2945237789</string>
+    <string name="ad_rewardedvideo">ca-app-pub-2730344422290526/1676581359</string>
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="no_result">brak wyników L :/</string>
+    <string name="error_no_word">brak słowa</string>
+    <string name="Notifications">Powiadomienia</string>
+    <string name="Notification_summary">Włącz dzienne powiadomienia</string>
+    <string name="enterYourNickname">Podaj swój nick</string>
+    <string name="Nickname">Pseudonim</string>
+    <string name="yourNickNname">Pseudonim</string>
+
+
+    <string name="color_picker_title">Motyw</string>
+    <string name="purchase_was_done">Zakup został wykonany, dziękuję</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+
+
+
+    <string name="Bug_report">Raport Błędów</string>
+    <string name="adfacebookbannerid1forNewEntry">284971388684608_284971715351242</string>
+    <string name="adfacebookbanneridtest">YOUR_PLACEMENT_ID</string>
+    <string name="adfacebookbannerid2moodTrack">284971388684608_290016531513427</string>
+    <string name="adfacebookbannerid3editActivity">284971388684608_290018221513258</string>
+    <string name="adfacebookbannerid4mainActivityInterstitial">284971388684608_290019878179759</string>
+
+
+    <string name="addTodayEntry">Dodaj dzisiajsze wejscia!</string>
+    <string name="Privacy_Policy">Regulamin</string>
+    <string name="SearchWallpaper">Szukaj tapety</string>
+    <string name="customization">Opcje</string>
+    <string name="dataoperations">Opcje Pamieci</string>
+    <string name="SupportingUs">Wspomoz Nas Swoja Opinia!</string>
+    <string name="underandroid8">Dla wersji niższej niż Android 8 </string>
+    <string name="myMood">Mój Nastrój</string>
+
+
+
+</resources>

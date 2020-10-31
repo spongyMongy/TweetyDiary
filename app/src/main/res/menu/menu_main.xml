@@ -1,0 +1,71 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kilic.tweetydiary.MainActivity">
+
+//////////////////////////
+    <!--
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/alarm"
+        android:orderInCategory="100"
+        android:title="@string/Settings"
+        app:showAsAction="never"
+
+        />
+-->
+
+
+    <item
+        android:title="Quotes"
+        android:id="@+id/quotes"
+        android:icon="@drawable/picasa"
+        app:showAsAction="always"
+        />
+
+
+
+    <!--
+       <item
+           android:id="@+id/action_settings"
+           android:icon="@drawable/settt"
+           android:orderInCategory="100"
+           android:title="@string/Settings"
+           app:showAsAction="always"
+           />
+-->
+
+
+   ////////////////////////
+       <!--
+
+       <item
+           android:title="DayNight"
+           android:id="@+id/dayNight"
+           android:icon="@drawable/day"
+           app:showAsAction="always"
+           />
+
+
+
+
+
+
+       <item
+           android:title="@string/Favorites"
+           android:titleCondensed="Fav."
+           android:id="@+id/favorites"
+           app:showAsAction="never"
+           />
+
+
+
+       <item
+           android:title="@string/search"
+           android:id="@+id/search"
+           app:showAsAction="never"
+           />
+
+
+   -->
+</menu>

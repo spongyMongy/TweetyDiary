@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">Pink Diary</string>
+    <string name="new_entry">New Entry</string>
+    <string name="favorites">Favorites</string>
+    <string name="search">Search</string>
+    <string name="searchFor">search for..?</string>
+    <string name="resultFor">Results for </string>
+    <string name="Export">Export</string>
+    <string name="Yourideais">Your idea is very important</string>
+    <string name="expoSummary"> Copy to your device + share with 3. parties</string>
+    <string name="doyouveaminuteSummary">Do you have a minute? Please review our app on PlayStore so we can develop better for you</string>
+    <string name="save">SAVE</string>
+    <string name="location">LOC.</string>
+    <string name="Favorites">Favorites</string>
+    <string name="Settings">Settings</string>
+    <string name="dialogtitle">Your nickname is:</string>
+    <string name="exportSuccessful">Export successful!</string>
+    <string name="exportFailed">Export failed</string>
+    <string name="importSuccessful">Import successful!</string>
+
+    <string name="toastreminderSetted">Reminder is set to </string>
+    <string name="notificationMessage">Pink Owl Diary time;)</string>
+    <string name="alarm_name">Hey </string>
+    <string name="entry_delete">Entry not deleted </string>
+    <string name="open_network">Please Enable GPS and Internet </string>
+    <string name="permission_denied">You denied the permission </string>
+    <string name="become_super">PREMIUM - Become a SuperPink Owl:)</string>
+    <string name="premiumsummary"> Much less ads \nColorful Text Themes \nSearch Wallpapers \nIncoming Premium functions</string>
+    <string name="edit">Edit</string>
+    <string name="Intro1">Hi.. I am your new friend Pink Owl.  \"Wik wik\"    </string>
+    <string name="Intro2">Together we will have a very rich diary experience..</string>
+    <string name="Intro3">Great&amp; entertaining views </string>
+    <string name="Intro4">You will like to use it</string>
+    <string name="Intro5">Feel Freedom in your Cells</string>
+    <string name="Intro6">Choose your desired \nTEXT\nCOLOR\nSTYLE\nEven a NICKNAME(!) for your entries</string>
+    <string name="Last7entry">Last 7 entry</string>
+    <string name="exit1">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="mood">Mood</string>
+    <string name="menu">Menu</string>
+    <string name="newpicture">New Wallpaper</string>
+    <string name="plswatchvideo">Download will be completed at the end of the  video, \n        Thank you</string>
+    <string name="downloadWillStart">Thx, your image was downloaded\n          Congratulations..</string>
+
+
+
+
+
+    <string name="font_picker_title">Font families</string>
+    <string name="myFonts">My fonts</string>
+    <string name="dreamMode">~Dream Journal Mode Activated~</string>
+    <string name="dreamModeOff">Dream Journal Mode Off</string>
+    <string name="monthlyAverage">Monthly Average</string>
+    <string name="today">Today</string>
+    <string name="MoodChart">Mood Chart</string>
+    <string name="welcome">Welcome  </string>
+    <string name="premium">Premium  </string>
+    <string name="review"> Help owl with a review</string>
+    <string name="DayNight">Day/Night</string>
+    <string name="atLeastOneEntry">You need to have at least one entry with mood</string>
+
+    <string name="entry1">HELLO FRIEND\nThis is your first TweetyEntry, CONGRATULATIONS\n\nYou can DELETE your entries anytime by pressing on it and choosing delete. But no editing is allowed sorry you can not change the past:) </string>
+    <string name="entry2">But you can choose to SHARE your entries with your calendar to get a pleasent glimp from the past in the future.. One more challenge for you: If you are brave enough you can even share them with others , yes on Twitter too:)</string>
+    <string name="entry3">This is a liked entry as you see which is added to your FAVORITES tab automatically (You can check it)</string>
+    <string name="entry4">Do not forget to add location to your entries by pressing LOCATION button, and one last thing , do not forget to take a good nickName for you and please put your comment in PlayStore in the SETTINGS;)</string>
+    <string name="your_location">your location</string>
+    <string name="password">Password</string>
+
+
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="Choices">  Choices</string>
+    <string name="time_picker">timePicker</string>
+    <string name="dontforgetpassword">Don\'t forget to write it down somewhere safe</string>
+    <string name="backup">Backup</string>
+    <string name="backupSummary">Backup current diary</string>
+    <string name="restore">Restore</string>
+    <string name="restoreSummary">Restores from backup</string>
+    <string name="whatisonyourmindtoday">What is in your mind today...</string>
+    <string name="textcolor_picker_title">Text Color</string>
+
+
+    <string name="app_id">ca-app-pub-2730344422290526~5763146542</string>
+
+    <string name="ad_unitvideo_id">ca-app-pub-2730344422290526/1676581359</string>
+    <string name="ad_unitbanner_id">ca-app-pub-2730344422290526/4885604170</string>
+    <string name="ad_unitinterstitial_id">ca-app-pub-2730344422290526/1655379525</string>
+    <string name="ad_onlyentryinterstatialimage">ca-app-pub-2730344422290526/2945237789</string>
+    <string name="ad_rewardedvideo">ca-app-pub-2730344422290526/1676581359</string>
+
+
+    <!--
+    for real
+      <string name="ad_unitvideo_id">ca-app-pub-2730344422290526/1676581359</string>
+    <string name="ad_unitbanner_id">ca-app-pub-2730344422290526/4885604170</string>
+    <string name="ad_unitinterstitial_id">ca-app-pub-2730344422290526/1655379525</string>
+    <string name="ad_onlyentryinterstatialimage">ca-app-pub-2730344422290526/2945237789</string>
+    <string name="ad_rewardedvideo">ca-app-pub-2730344422290526/1676581359</string>
+
+
+
+
+
+//for test
+    <string name="ad_unitvideo_id">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="ad_unitbanner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_unitinterstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="ad_onlyentryinterstatialimage">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="ad_rewardedvideo">ca-app-pub-3940256099942544/5224354917</string>
+
+
+    -->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="no_result">no result :/</string>
+    <string name="error_no_word">no word</string>
+    <string name="Notifications">Notifications</string>
+    <string name="Notification_summary">Turn on for daily notifications</string>
+    <string name="enterYourNickname">Please enter your nickname</string>
+    <string name="Nickname">NickName</string>
+    <string name="yourNickNname">yourNickName</string>
+
+
+    <string name="color_picker_title">Themes</string>
+    <string name="purchase_was_done">Purchase was already done, thank you</string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://vergilstudios.wixsite.com/.well-known/assetlinks.json\" }]</string>
+    <string name="Bug_report">Bug report</string>
+
+    <string name="adfacebookbannerid1forNewEntry">284971388684608_284971715351242</string>
+    <string name="adfacebookbanneridtest">YOUR_PLACEMENT_ID</string>
+    <string name="adfacebookbannerid2moodTrack">284971388684608_290016531513427</string>
+    <string name="adfacebookbannerid3editActivity">284971388684608_290018221513258</string>
+    <string name="adfacebookbannerid4mainActivityInterstitial">284971388684608_290019878179759</string>
+
+
+
+    <string name="addTodayEntry">ADD TODAY\'s ENTRY!</string>
+    <string name="Privacy_Policy">Privacy Policy</string>
+    <string name="SearchWallpaper">Search wallpaper</string>
+    <string name="customization">Customization</string>
+    <string name="dataoperations">Data Operations</string>
+    <string name="SupportingUs">Supporting Us!</string>
+    <string name="underandroid8"> Below Android Oreo</string>
+    <string name="myMood">My Mood</string>
+
+
+</resources>

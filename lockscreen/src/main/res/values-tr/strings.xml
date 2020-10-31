@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LockScreen</string>
+    <string name="pinlock_title">Pin giriniz</string>
+    <string name="pinlock_settitle">Pin kodunuzu ayarlayın</string>
+    <string name="pinlock_firsttry">Hatalı Pin Kodu: İlk deneme</string>
+    <string name="pinlock_secondtry">Hatalı Pin Kodu: İkinci deneme</string>
+    <string name="pinlock_wrongpin">Hatalı Pin Kodu</string>
+    <string name="pinlock_secondPin">Pin kodunuzu tekrar giriniz</string>
+    <string name="pinlock_tryagain">Pin kodları farklı</string>
+    <string name="pinlock_fingerprint">Parmak izi kullanınız</string>
+</resources>

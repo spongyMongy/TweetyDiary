@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pembe Günlük</string>
+    <string name="new_entry">Yeni günce</string>
+    <string name="favorites">Favoriler</string>
+    <string name="search">Arama</string>
+    <string name="searchFor">ara..?</string>
+    <string name="resultFor">Sonuçlar </string>
+    <string name="Export">Dışa aktar</string>
+    <string name="Yourideais">Düşünceniz bizim için önemli</string>
+    <string name="expoSummary">Cihazınıza kopyalar + 3. parti uygulamalarla paylaşır</string>
+    <string name="doyouveaminuteSummary">Bir dakikanızı ayırabilir misiniz? PlayStoreda değerli düşüncelerinizi merak ediyoruz. </string>
+    <string name="save">KAYDET</string>
+    <string name="location">KONUM</string>
+    <string name="Favorites">Favoriler</string>
+    <string name="Settings">Ayarlar</string>
+    <string name="dialogtitle">Güncelerde görülecek rumuzunuz:</string>
+    <string name="exportSuccessful">Aktarım başarılı!</string>
+    <string name="exportFailed">Aktarımda hata meydana geldi</string>
+    <string name="importSuccessful">İçeri aktarım başarılı!</string>
+
+    <string name="toastreminderSetted">Hatırlatıcı şu zaman için kuruldu </string>
+    <string name="notificationMessage">Mor Baykuşun Günlüğü zamanı:)</string>
+    <string name="alarm_name">Hey </string>
+    <string name="entry_delete">Girdi silinemedi </string>
+    <string name="open_network">Lütfen ağa bağlandığınızdan emin olun </string>
+    <string name="permission_denied">İzin isteğini reddettiniz </string>
+    <string name="become_super">PREMIUM - Super Ol:)</string>
+    <string name="premiumsummary"> Cok daha az reklam \nYazı rengi temaları \nDuvarKağıdı araması \nGelmekte olan Premium özellikler </string>
+    <string name="edit">Düzenle</string>
+    <string name="Intro1">Merhaba.. Ben senin yeni arkadaşın Pembe Baykuş.  \"Wik wik\"    </string>
+    <string name="Intro2">Beraber çok eğlenceli bir günlük tecrübesi yaşayacağız..</string>
+    <string name="Intro3">Harika&amp; eğlenceli ekranlar </string>
+    <string name="Intro4">Hergün kullanmaktan zevk alacaksın</string>
+    <string name="Intro5">Özgürlüğü Hücrelerinde Hisset</string>
+    <string name="Intro6">Notlarınız için istediğiniz yazı/Renk/stil/hatta rumuzunuzu(!) seçin</string>
+    <string name="Last7entry">Son 7 günce</string>
+    <string name="exit1">Çıkmak istediğinizden emin misiniz?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+
+
+
+
+
+    <string name="font_picker_title">Fontlar</string>
+    <string name="myFonts">Fontlarım</string>
+    <string name="dreamMode">~Rüya Modu aktivite edildi~</string>
+    <string name="dreamModeOff">Rüya Modu de-aktive edildi</string>
+    <string name="monthlyAverage">Aylık Ortalama</string>
+    <string name="today">Bugün</string>
+    <string name="MoodChart">Mutluluk Çizelgesi</string>
+    <string name="welcome">Hoşgeldin  </string>
+    <string name="premium">Premium  </string>
+    <string name="review">Sizi dinliyoruz..</string>
+    <string name="DayNight">Gündüz/Gece</string>
+    <string name="atLeastOneEntry">En az 1 günce ve durum giriniz </string>
+
+
+
+    <string name="entry1">Merhaba\nİlk TweetyGüncenizi okuyorsunuz, TEBRİKLER\n\nGüncelerinizi silmek için üzerine basıp SİL seçeneğini seçmeniz yeterli. Tek bir şartla, geçmişi değiştiremeyeceğiniz için güncenizi de değiştiremezsiniz:) </string>
+    <string name="entry2">Bununla birlikte PAYLAŞ butonuna basarak güncelerinizi ileride tatlı bir hatıra olarak kendinize gönderilmek üzere takviminizde paylaşabilirsiniz. Sizin için bir meydan okuma daha: Kendinize güveniyorsanız seçilen güncenizi başkalarıyla da paylaşabilirsiniz, evet Twitter dahil:)</string>
+    <string name="entry3">Bu güncede olduğu gibi güncelerinizi FAVORİLERinize  ekleyebilirsiniz(Favoriler tabını kontrol edin)</string>
+    <string name="entry4">KONUM tuşuna basarak güncelerinize konumunuzu da ekleyebilirsiniz. Son bir not daha, AYARLAR dan kendinize uygun bir rumuz seçmeyi ve bizi arkadaşlarınıza tavsiye etmeyi de unutmayın;)</string>
+    <string name="your_location">konumunuz</string>
+    <string name="password">Şifreleme</string>
+
+
+    <string name="share">Paylaş</string>
+    <string name="delete">Sil</string>
+    <string name="Choices">  Seçenekler</string>
+    <string name="time_picker">Zaman Seç</string>
+    <string name="dontforgetpassword">Güvenli bir yere not almayı unutmayın</string>
+    <string name="backup">Backup oluştur</string>
+    <string name="backupSummary">Backup(yedekleme) oluşturur</string>
+    <string name="restore">Geri yükle</string>
+    <string name="restoreSummary">Backuplanan veriyi geri yükler</string>
+    <string name="whatisonyourmindtoday">Bugün aklında ne var...</string>
+    <string name="textcolor_picker_title">Yazı Rengi</string>
+    <string name="mood">Durum</string>
+    <string name="menu">Menü</string>
+    <string name="newpicture">Yeni İmaj</string>
+    <string name="plswatchvideo">İndirme için lütfen videoyu izleyin</string>
+    <string name="downloadWillStart">Teşekkürler, indirme işleminiz gerçekleşti</string>
+
+
+
+    <string name="app_id">ca-app-pub-2730344422290526~5763146542</string>
+
+    <string name="ad_unitvideo_id">ca-app-pub-2730344422290526/1676581359</string>
+    <string name="ad_unitbanner_id">ca-app-pub-2730344422290526/4885604170</string>
+    <string name="ad_unitinterstitial_id">ca-app-pub-2730344422290526/1655379525</string>
+    <string name="ad_onlyentryinterstatialimage">ca-app-pub-2730344422290526/2945237789</string>
+    <string name="ad_rewardedvideo">ca-app-pub-2730344422290526/1676581359</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="no_result">sonuç yok :/</string>
+    <string name="error_no_word">kelime yok</string>
+    <string name="Notifications">Bildirimler</string>
+    <string name="Notification_summary">Günlük bildirimleri al</string>
+    <string name="enterYourNickname">Lütfen rumuzunuzu girin</string>
+    <string name="Nickname">Rumuz</string>
+    <string name="yourNickNname">Takma Adınız</string>
+
+
+    <string name="color_picker_title">Temalar</string>
+    <string name="purchase_was_done">Satın alma daha önce gerçekleştirildi, teşekkürler</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Bug_report">Hata bildirimi</string>
+    <string name="adfacebookbannerid1forNewEntry">284971388684608_284971715351242</string>
+    <string name="adfacebookbanneridtest">YOUR_PLACEMENT_ID</string>
+    <string name="adfacebookbannerid2moodTrack">284971388684608_290016531513427</string>
+    <string name="adfacebookbannerid3editActivity">284971388684608_290018221513258</string>
+    <string name="adfacebookbannerid4mainActivityInterstitial">284971388684608_290019878179759</string>
+    <string name="addTodayEntry">Add today\'s entry!</string>
+    <string name="Privacy_Policy">Güvenlik Politikası</string>
+    <string name="SearchWallpaper">Duvarkağıdı ara..</string>
+    <string name="customization">Kişiselleştirme</string>
+    <string name="dataoperations">Data Operasyonları</string>
+    <string name="SupportingUs">Bizi Destekleyin!</string>
+    <string name="underandroid8"> Android Oreo altı </string>
+    <string name="myMood">Durumum</string>
+
+
+</resources>

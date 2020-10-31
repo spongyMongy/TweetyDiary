@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="location">11dp</dimen>
+    <dimen name="nickdate">16dp</dimen>
+    <dimen name="entry">18dp</dimen>
+    <dimen name="font">21dp</dimen>
+
+</resources>

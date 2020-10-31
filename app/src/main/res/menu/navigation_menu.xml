@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+
+
+    >
+
+<!--
+    <TextView
+        android:text=""
+
+        />-->
+
+
+
+
+    <item
+        android:title="@string/DayNight"
+        android:id="@+id/dayNight"
+        android:icon="@drawable/night"
+        />
+
+
+
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/settt"
+        android:title="@string/Settings"
+        />
+
+
+    <item
+        android:id="@+id/moodChart"
+        android:icon="@drawable/five"
+        android:title="@string/MoodChart"
+        />
+
+
+    <item
+        android:title="@string/Favorites"
+        android:id="@+id/favorites"
+        android:icon="@drawable/favorite"
+
+        />
+
+
+
+    <item
+        android:title="@string/search"
+        android:id="@+id/search"
+        android:icon="@drawable/searchnav"
+
+        />
+
+
+
+    <group android:id="@+id/group_settings"
+        android:checkableBehavior="single">
+        <item android:id="@+id/navdrawer_item_settings"
+            android:icon="@drawable/review2"
+            android:title="@string/review"/>
+
+        <item android:id="@+id/navdrawer_item_bugReport"
+            android:icon="@drawable/bugreport"
+            android:title="@string/Bug_report"/>
+
+
+        <item android:id="@+id/navdrawer_item_privacyPolicy"
+            android:icon="@drawable/policy"
+            android:title="@string/Privacy_Policy"/>
+
+
+
+
+    </group>
+
+
+</menu>

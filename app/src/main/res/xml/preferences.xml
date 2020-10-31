@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    >
+
+
+   <PreferenceCategory
+        android:title="@string/Notifications" >
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="notification_switch_preference"
+        android:title="@string/Notifications"
+            android:summary="@string/Notification_summary"
+        android:icon="@drawable/notification"
+
+        />
+
+
+
+     </PreferenceCategory>
+
+
+
+
+    <PreferenceCategory
+        android:title="@string/customization">
+
+
+        <android.support.v7.preference.EditTextPreference
+            android:key="edittext_preference"
+            android:title="@string/Nickname"
+            android:summary="@string/enterYourNickname"
+            android:dialogTitle="@string/dialogtitle"
+            android:background="@color/forDiaryFavText"
+            android:backgroundTint="@color/forDiaryFavText"
+            android:icon="@drawable/girl"
+            />
+
+
+
+    <com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat
+        android:defaultValue="@color/colorPrimary"
+        android:key="color_preference"
+        android:title="@string/color_picker_title"
+        android:icon="@drawable/color"
+
+
+
+
+
+        />
+
+
+
+    <android.support.v7.preference.Preference
+        android:key="textColor_preference"
+        android:title="@string/textcolor_picker_title"
+        android:icon="@drawable/typography"
+
+        />
+
+
+
+
+    <android.support.v7.preference.Preference
+        android:key="font_preference"
+        android:title="@string/font_picker_title"
+        android:icon="@drawable/textheight"
+        android:summary="@string/underandroid8"
+
+
+        />
+
+
+
+
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+
+        android:key="password_preference"
+        android:title="@string/password"
+
+        android:summary="@string/dontforgetpassword"
+
+        android:defaultValue="false"
+        android:icon="@drawable/password"
+
+        />
+
+
+    </PreferenceCategory>
+
+
+
+
+    <PreferenceCategory
+        android:title="@string/dataoperations">
+
+
+ <android.support.v7.preference.Preference
+     android:key="backup_preference"
+     android:title="@string/backup"
+     android:summary="@string/backupSummary"
+
+     android:icon="@drawable/backup"
+
+     />
+
+
+    <android.support.v7.preference.Preference
+        android:key="restore_preference"
+        android:title="@string/restore"
+        android:summary="@string/restoreSummary"
+        android:icon="@drawable/restore"
+
+        />
+
+
+
+
+
+
+
+
+    <android.support.v7.preference.Preference
+        android:key="export_preference"
+        android:title="@string/Export"
+        android:summary="@string/expoSummary"
+        android:icon="@drawable/export"
+
+        />
+
+
+
+
+    </PreferenceCategory>
+
+
+
+
+
+
+    <PreferenceCategory
+        android:title="@string/SupportingUs">
+
+
+    <android.support.v7.preference.Preference
+        android:icon="@drawable/buy_premium"
+        android:key="premium_preference"
+        android:title="@string/become_super"
+        android:summary="@string/premiumsummary"
+        android:dialogTitle="dialog_title_edittext_preference"
+        />
+
+
+
+
+ <android.support.v7.preference.Preference
+     android:icon="@drawable/review"
+
+     android:key="review_preference"
+     android:title="@string/Yourideais"
+     android:summary="@string/doyouveaminuteSummary"
+     android:dialogTitle="dialog_title_edittext_preference"
+     />
+
+
+
+    </PreferenceCategory>
+
+
+
+</android.support.v7.preference.PreferenceScreen>
+
+

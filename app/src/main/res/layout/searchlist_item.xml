@@ -1,0 +1,109 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+    android:layout_marginTop="8dp"
+    android:elevation="12dp"
+    android:innerRadius="0dp"
+    android:shape="ring"
+    android:thicknessRatio="1.9"
+    android:visibility="visible"
+
+
+    app:cardCornerRadius="20dp">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+
+
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/searchDATE_NICKNAME"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+
+                android:layout_marginTop="8dp"
+                android:textColor="#A9A9A9"
+                android:textSize="@dimen/nickdate"
+                app:layout_constraintEnd_toEndOf="@+id/search_entry"
+                app:layout_constraintHorizontal_bias="0.029"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+
+                android:id="@+id/search_entry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:textSize="@dimen/entry"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/searchDATE_NICKNAME"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+            <TextView
+                android:id="@+id/search_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="28dp"
+                android:singleLine="true"
+
+                android:text="   "
+                android:textSize="@dimen/location"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/search_entry" />
+
+
+            <!--
+            <ImageView
+                android:id="@+id/search_mood"
+                android:layout_width="30dp"
+                android:layout_height="18dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+-->
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

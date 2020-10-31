@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">
+            @style/PreferenceThemeOverlay.v14.Material
+        </item>
+    </style>
+
+
+
+
+    <style name="FullscreenTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+
+
+
+    <style name="PreferencesTheme">
+        <item name="android:background">#FFEAEAEA</item>
+    </style>
+  <!--  <style name="DialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">#333</item>
+        <item name="colorAccent">#2BF</item>
+    </style>-->
+
+    <style name="CustomPickerTheme">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="AppTheme.RoundedCornerMaterialButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_shape</item>
+    </style>
+
+
+
+    <style name="Widget.Design.TextInputLayout" parent="android:Widget">
+        <item name="hintTextAppearance">@style/TextAppearance.Design.Hint</item>
+        <item name="errorTextAppearance">@style/TextAppearance.Design.Error</item>
+        <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
+        <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
+        <item name="passwordToggleDrawable">@drawable/design_password_eye</item>
+        <item name="passwordToggleTint">@color/design_tint_password_toggle</item>
+        <item name="passwordToggleContentDescription">@string/password_toggle_content_description</item>
+    </style>
+
+    <style name="TextAppearance.Design.Counter.Overflow" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+
+</resources>
